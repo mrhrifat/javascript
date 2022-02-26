@@ -1,0 +1,173 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "imam": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "knownName": {
+                            "type": "string"
+                        },
+                        "born": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "AH": {
+                                            "type": "integer"
+                                        },
+                                        "CE": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "AH",
+                                        "CE"
+                                    ]
+                                }
+                            ]
+                        },
+                        "death": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "AH": {
+                                            "type": "integer"
+                                        },
+                                        "CE": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "AH",
+                                        "CE"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "required": [
+                        "knownName",
+                        "born",
+                        "death"
+                    ]
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "knownName": {
+                            "type": "string"
+                        },
+                        "born": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "AH": {
+                                            "type": "integer"
+                                        },
+                                        "CE": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "AH",
+                                        "CE"
+                                    ]
+                                }
+                            ]
+                        },
+                        "death": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "AH": {
+                                            "type": "integer"
+                                        },
+                                        "CE": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "AH",
+                                        "CE"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "required": [
+                        "knownName",
+                        "born",
+                        "death"
+                    ]
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "knownName": {
+                            "type": "string"
+                        },
+                        "born": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "AH": {
+                                            "type": "integer"
+                                        },
+                                        "CE": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "AH",
+                                        "CE"
+                                    ]
+                                }
+                            ]
+                        },
+                        "death": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "AH": {
+                                            "type": "integer"
+                                        },
+                                        "CE": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "AH",
+                                        "CE"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "required": [
+                        "knownName",
+                        "born",
+                        "death"
+                    ]
+                }
+            ]
+        }
+    },
+    "required": [
+        "imam"
+    ]
+}

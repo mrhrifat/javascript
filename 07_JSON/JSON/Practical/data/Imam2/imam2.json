@@ -1,0 +1,49 @@
+{
+    "imam": [
+        {
+            "knownName": "Ibn Taymiyyah",
+            "born": [
+                {
+                    "AH": 661,
+                    "CE": 1263
+                }
+            ],
+            "death": [
+                {
+                    "AH": 728,
+                    "CE": 1328
+                }
+            ]
+        },
+        {
+            "knownName": "Ibn Qayyim Al-Jawziyya",
+            "born": [
+                {
+                    "AH": 691,
+                    "CE": 1292
+                }
+            ],
+            "death": [
+                {
+                    "AH": 751,
+                    "CE": 1350
+                }
+            ]
+        },
+        {
+            "knownName": "Ibn Al-Jawzi",
+            "born": [
+                {
+                    "AH": 510,
+                    "CE": 1116
+                }
+            ],
+            "death": [
+                {
+                    "AH": 597,
+                    "CE": 1201
+                }
+            ]
+        }
+    ]
+}

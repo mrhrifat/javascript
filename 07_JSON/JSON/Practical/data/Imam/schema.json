@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "imam": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "knownName": {
+                "type": "string"
+              },
+              "born": {
+                "type": "string"
+              },
+              "death": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "knownName",
+              "born",
+              "death"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "knownName": {
+                "type": "string"
+              },
+              "born": {
+                "type": "string"
+              },
+              "death": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "knownName",
+              "born",
+              "death"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "knownName": {
+                "type": "string"
+              },
+              "born": {
+                "type": "string"
+              },
+              "death": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "knownName",
+              "born",
+              "death"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "imam"
+    ]
+  }
+  
+  
