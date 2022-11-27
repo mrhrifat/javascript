@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Files -->
+
+    <!-- 
+        <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">  
+    -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Dom Manipulation | Mrh Rifat </title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bismillahir Rahmanir Rahim</h2>
+        <p>
+            Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.
+        </p>
+        <hr>
+    </div>
+
+    <!-- <div class="container">
+        <h1 id="title">Document Object Model</h1>
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt soluta neque quaerat laborum vel
+            tenetur, consequatur sapiente cupiditate placeat deserunt unde repudiandae vero. Quasi sapiente accusamus
+            ipsam
+            harum qui?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptatum sapiente deleniti
+            placeat quia tenetur ab, saepe eum dolorem a. Nesciunt, quae! Ab, atque impedit nam temporibus quae mollitia
+        </p>
+
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt soluta neque quaerat laborum vel
+            tenetur, consequatur sapiente cupiditate placeat deserunt unde repudiandae vero. Quasi sapiente accusamus
+            ipsam
+            harum qui?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptatum sapiente deleniti
+            placeat quia tenetur ab, saepe eum dolorem a. Nesciunt, quae! Ab, atque impedit nam temporibus quae mollitia
+        </p>
+
+        <ol class="list-group m-5" id="ol">
+            <li class="list-group-item" name="list-item-one">One</li>
+            <li class="list-group-item">Two</li>
+            <li class="list-group-item">Three</li>
+        </ol>
+
+    </div> -->
+
+    <!-- <hr> -->
+
+    <!-- <div class="container" id=second>
+
+        <ul class="list-group" id="second-ul">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">JavaScript</li>
+        </ul>
+    </div> -->
+
+
+    <div class="container w-50" id=all-div>
+        <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae mollitia quam non qui veritatis ea ipsam
+            officiis reiciendis? Nobis doloremque iure blanditiis numquam eos mollitia sunt esse tenetur ex corporis!
+        </p>
+        <p class="lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore praesentium, asperiores repellendus in
+            culpa eos! Ad alias, eum tempora quas blanditiis, dolorem at voluptatem velit asperiores laborum impedit!
+            Ad, doloribus!
+        </p>
+        <ul class="list-group" id="lists">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">JavaScript</li>
+        </ul>
+
+        <ol class="list-group mt-5" id="company">
+            <li class="list-group-item text-danger" id="google">Google</li>
+            <li class="list-group-item text-primary" id="facebook" name="facebook">Facebook</li>
+            <li class="list-group-item text-success" id="microsoft" name="microsoft">Microsoft</li>
+        </ol>
+
+        <br>
+        <hr>
+
+        <ol class="list-group" id="imam">
+            <li class="list-group-item" id="ahmad">Ibn Ahmad</li>
+            <li class="list-group-item" id="taimiya">Ibn Taimiya</li>
+            <li class="list-group-item" id="jawji">Ibn Jawji</li>
+            <li class="list-group-item" id="kaiyyim">Ibn Kaiyyim</li>
+        </ol>
+
+        <br>
+        <hr>
+
+        <ol class="list-group" id="books">
+            <li class="list-group-item" id="lovecandy">Love Candy</li>
+            <li class="list-group-item" id="biye">Biye</li>
+            <li class="list-group-item" id="valobasharcador">Valobashar Cador</li>
+            <li class="list-group-item" id="love&respect">Love & Respect</li>
+        </ol>
+
+        <button class="btn btn-success my-3" id="bookbtn">
+            Add New
+        </button>
+
+        <br>
+        <hr>
+
+        <div class="box" id="box">
+            <p id="text">
+                (<span id="x">0</span>,
+                <span id="y">0</span>)
+            </p>
+        </div>
+
+        <br>
+        <hr>
+
+        <ol class="list-group" id="cars">
+            <li class="list-group-item" id="bmw">BMW</li>
+            <li class="list-group-item" id="tesla">Tesla</li>
+            <li class="list-group-item" id="farari">Farari</li>
+            <li class="list-group-item" id="tata">Tata</li>
+        </ol>
+
+        <button class="btn btn-success my-3" id="carbtn">
+            Add New
+        </button>
+
+        <br>
+        <hr>
+
+
+
+        <form class="border p-2">
+            <h3 class="text-center">Form</h3>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="formName" class="form-control">
+            </div>
+            <div>
+                <h6>Your Name : <span id="showName"></span></h6>
+            </div>
+            <div class="form-group">
+                <label for="books">Books</label>
+                <ol class="list-group" id="listBooks">
+                    <li class="list-group-item">Love Candy</li>
+                    <li class="list-group-item">Love & Respect</li>
+                    <li class="list-group-item">Biye </li>
+                    <li class="list-group-item">Salikin</li>
+                </ol>
+            </div>
+            <div class="form-group">
+                <label for="language">Select Language</label>
+                <div class="form-check">
+                    <input type="checkbox" name="language" id="java" value="Java" class="form-check-input">
+                    <label for="java">Java</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="language" id="javascript" value="JavaScript" class="form-check-input">
+                    <label for="javascript">JavaScript</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="language" id="python" value="Python" class="form-check-input">
+                    <label for="python">Python</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="language" id="c++" value="C++" class="form-check-input">
+                    <label for="c++">C++</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="language" id="typescript" value="TypeScript" class="form-check-input">
+                    <label for="typescript">TypeScript</label>
+                </div>
+                <div>
+                    <h6>Language : <span id="showLang"></span></h6>
+                </div>
+            </div>
+
+        </form>
+
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+
+
+        <form action="" id="form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" name="name" id="name">
+                <div class="invalid-feedback">Please enter name</div>
+            </div>
+            <div class=" form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" id="email">
+                <div class="invalid-feedback">Please enter email</div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" name="password" id="password">
+                <div class="invalid-feedback">Please enter password</div>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="check" id="check">
+                <a href="http://google.com">I agree with terms and codition</a>
+            </div>
+            <div class="form-group my-1">
+                <input class="btn btn-success" type="submit" value="Submit">
+            </div>
+        </form>
+
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+
+
+        <div>
+            <button class="btn btn-success" id="userbtn">
+                Users
+            </button>
+            <ul class="list-group my-3" id="users"></ul>
+        </div>
+
+
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+
+        <form id="pform">
+            <div class="form-group">
+                <label for="title">
+                    Title
+                </label>
+                <input type="text" name="title" id="ptitle" class="form-control" placeholder="Enter title">
+            </div>
+            <div class="form-group">
+                <label for="body">
+                    Body
+                </label>
+                <textarea name="body" id="pbody" cols="15" rows="10" class="form-control"
+                    placeholder="Eter body text"></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn btn-success">
+        </form>
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <table class="table table-bordered" id="ptable">
+                <thead>
+                    <tr class="text-center">
+                        <th>User ID</th>
+                        <th>Title</th>
+                        <th>Body</th>
+                        <th>Post ID</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="mb-5"></div>
+    </div>
+
+
+
+
+
+    <!-- JavaScript Files
+
+    <!--     
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/jquery/popper.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>  
+    -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

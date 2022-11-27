@@ -1,0 +1,21 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Abel', sans-serif;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body h2 {
+  color: #16a085;
+  text-align: center;
+  font-size: 35px;
+}
+
+body p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+}
+/*# sourceMappingURL=index.css.map */
