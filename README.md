@@ -14,6 +14,7 @@ It will be helpful for any future Programmer, who want to learn JavaScript from 
 ## ES6 / ECMAScript 6
 
 ECMAScript 2015 or ES2015 is a significant update to the JavaScript programming language. It is the first major update to the language since ES5 which was standardized in 2009. Therefore, ES2015 is often called ES6.
+JavaScript ES6 brings new syntax and new awesome features to make your code more modern and more readable. It allows you to write less code and do more. ES6 introduces us to many great features like arrow functions, template strings, class destruction, Modules and more.
 
 **Note:** To follow this ES6 tutorial, you should have a good knowledge of JavaScript up to ES5.
 
