@@ -54,6 +54,13 @@ JavaScript ES6 brings new syntax and new awesome features to make your code more
   - -[Getter Setter](https://github.com/mrhrifat/javascript-all-to-know/blob/6a7d12dbed2f5549596575d9d59ca1dc8ebb6abe/04_ES6/src/scripts/Class.js#L397)
   - [Inheritence](https://github.com/mrhrifat/javascript-all-to-know/blob/6a7d12dbed2f5549596575d9d59ca1dc8ebb6abe/04_ES6/src/scripts/Inheritence.js#L1)
   - [Method Overriding](https://github.com/mrhrifat/javascript-all-to-know/blob/6a7d12dbed2f5549596575d9d59ca1dc8ebb6abe/04_ES6/src/scripts/Inheritence.js#L31)
+- [DevJs](https://github.com/mrhrifat/development-javascript/tree/master/ES6%2B)
+  - [Error Handling](https://github.com/mrhrifat/development-javascript/blob/master/ES6%2B/src/scripts/ErrorInJS.js)
+  - [Asynchronous JavaScript](https://github.com/mrhrifat/development-javascript/blob/master/ES6%2B/src/scripts/AsynchronousJS.js)
+  - [AJAX](https://github.com/mrhrifat/development-javascript/blob/e6fd5fc2d83720954839ca8cc6df5762b3c87855/ES6%2B/src/scripts/AsynchronousJS.js#L127)
+  - [Promise](https://github.com/mrhrifat/development-javascript/blob/master/ES6%2B/src/scripts/Promise.js)
+  - [Fetch API](https://github.com/mrhrifat/development-javascript/blob/e6fd5fc2d83720954839ca8cc6df5762b3c87855/ES6%2B/src/scripts/Promise.js#L65)
+  - [Async Await](https://github.com/mrhrifat/development-javascript/blob/e6fd5fc2d83720954839ca8cc6df5762b3c87855/ES6%2B/src/scripts/Async.js)
 
 ## How To Contribute
 
